@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+  
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+   }
+   
+   img {
+       /* vorm aangepast */
+       border-radius: 50%;
+       border: 1px solid rgb(255, 255, 255);
+       width: 160px;
+       margin: auto;
+   }
+   
+   h1 {
+       /* tekst gecentreerd, kleur aangepast, margin*/
+       margin-top: 10px;
+       margin-bottom: 0px;
+       color: #df2d8c;
+       text-align:center;
+       padding-top: 5%;
+   }
+   
+   p{
+       font-size: small;
+       padding-top: -0.5em;
+       padding-bottom: -0.5em;
+       
+   }
+   
+   body {
+       max-width: 350px;
+       background: grey;
+       margin: auto;
+       padding: 5px 18px 10x 18px;
+       text-align: center;
+       font-size: smaller; 
+       border-radius: 1em;
+       
+   }
+   
+   .profile{
+       display: flex;
+       padding-left: 3.5em;
+       padding-top: -5em;
+       padding-bottom: 1em;
+       padding-right: 7em;
+       border-radius: 1em;
+       box-shadow: 5px black;
+   }
+   
+   .image {
+     width: 100px;
+   }
+   
+   ul {
+     font-size: smaller;
+     text-align: left;
+     padding-left: 1em;
+     padding-right: 5em;
+     list-style: none;
+     line-height: 2em;
+   }
+   
+   article{
+       background-color:#e478be;
+       background: linear-gradient(0deg, rgb(254, 254, 254) 50%, #e478be 100%);
+       display: absolute;
+       justify-content: center;
+       border-radius: 1em;    
+   }
